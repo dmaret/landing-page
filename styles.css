@@ -1,4 +1,12 @@
 .container{
+<<<<<<< HEAD
+=======
+    display: flex;
+    flex-direction: column;
+}
+
+#section-one{
+>>>>>>> 2a1cf9c (pushing changes to second section)
     background-color:#1F2937;
     color:#F9FAF8;
     font-family: 'roboto';
@@ -67,6 +75,7 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 img{
     width: 500px;
     height: 300px;
@@ -75,4 +84,41 @@ img{
 figcaption{
     text-align: center;
     font-weight: 100;
+=======
+figcaption{
+    text-align: center;
+    font-weight: 100;
+}
+
+.section-two{
+    display: flex;
+    flex-direction:column;
+}
+
+.info{
+    font-size: 40px;
+    text-align: center;
+}
+
+.box-row{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+}
+
+.box-container{
+    flex-direction: column;
+    margin: 40px;
+}
+
+.box{
+    border-style: solid;
+    border-color: #3882f6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+>>>>>>> 2a1cf9c (pushing changes to second section)
 }
