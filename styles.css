@@ -93,6 +93,7 @@ figcaption{
 .box-row{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     font-size: 20px;
     margin: 0 300px 70px 300px;
 }
@@ -126,7 +127,6 @@ figcaption{
     font-weight: 100;
     text-align: left;
     padding: 50px 300px 0 300px;
-    margin-right: 70px;
 }
 
 #author{
@@ -167,6 +167,7 @@ figcaption{
     border-color: white;
     border-radius: 10px;
     color: white;
+    width: 60px;
 }
 
 .footer{
