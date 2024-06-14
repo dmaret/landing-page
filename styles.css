@@ -1,12 +1,9 @@
 .container{
-<<<<<<< HEAD
-=======
     display: flex;
     flex-direction: column;
 }
 
 #section-one{
->>>>>>> 2a1cf9c (pushing changes to second section)
     background-color:#1F2937;
     color:#F9FAF8;
     font-family: 'roboto';
@@ -75,16 +72,6 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
-img{
-    width: 500px;
-    height: 300px;
-}
-
-figcaption{
-    text-align: center;
-    font-weight: 100;
-=======
 figcaption{
     text-align: center;
     font-weight: 100;
@@ -120,5 +107,24 @@ figcaption{
     width: 100px;
     height: 100px;
     border-radius: 10px;
->>>>>>> 2a1cf9c (pushing changes to second section)
+}
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    padding: 80px;
+    justify-content: center;
+}
+
+#quote{
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+
+#author{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 150px;
 }
