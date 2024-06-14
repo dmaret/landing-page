@@ -39,7 +39,7 @@
     align-items: stretch;
 }
 
-.header-bottom{
+.section-one-box{
     font-weight: 800;
     display: flex;
     flex-direction: row;
@@ -72,6 +72,7 @@
     background-color: #3882f6;
     border-radius: 10px;
     width: 60px;
+    height: 20px;
     text-align: center;
 }
 
@@ -167,7 +168,9 @@ figcaption{
     border-color: white;
     border-radius: 10px;
     color: white;
-    width: 60px;
+    min-width: 50px;
+    min-height: 20px;
+
 }
 
 .footer{
